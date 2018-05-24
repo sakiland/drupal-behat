@@ -103,7 +103,7 @@ interface CoreInterface extends OriginalCoreInterface {
    * @throws \Exception
    *   In case of failures an exception is thrown.
    */
-  public function entityDelete($entity);
+  public function entityDelete($entity_type, $entity);
 
   /**
    * Add a translation for an entity.
